@@ -6,7 +6,7 @@ export default function App() {
 const fruit =(val)=>{
   console.warn(val)
 }
-
+// Use State 
 const [name,setName]=useState("Muhtasham");
 function testName() {
 setName("Syed");
